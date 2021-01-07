@@ -1,15 +1,22 @@
 {
-  "name": "v3Dome",
-  "version": "0.0.0",
+  "name": "demo1",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
   },
   "dependencies": {
-    "vue": "^3.0.0-rc.1"
+    "core-js": "^3.6.5",
+    "office-preview": "^1.1.8",
+    "vega": "^5.17.0",
+    "vega-embed": "^6.13.0",
+    "vega-lite": "^4.17.0",
+    "vue": "^2.6.11"
   },
   "devDependencies": {
-    "vite": "^1.0.0-rc.1",
-    "@vue/compiler-sfc": "^3.0.0-rc.1"
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "vue-template-compiler": "^2.6.11"
   }
 }
